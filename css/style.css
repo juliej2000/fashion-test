@@ -13,6 +13,23 @@
     sans-serif;
 } */
 
+#catListeContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+
+  a {padding: 2rem;
+  background-color:#f8fafc;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;}
+}
+
+/* #catListeContainer {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+} */
+
 * {
   box-sizing: border-box;
 }
