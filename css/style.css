@@ -165,9 +165,20 @@ nav a:hover {
   color: inherit;
 }
 
-.footer {
+.footer-content {
   
+   
+    gap: 5px;
+    margin-top: 8px;
 }
+
+.footer-content img {
+    width: 25px;
+    height: 25px;
+    
+    margin-right: 5px;
+}
+
 
 footer {
   margin-top: 3rem;
